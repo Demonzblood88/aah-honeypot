@@ -158,4 +158,3 @@ def honeypot(address, port, username, password):
             print("!!! Exception - Could not open new client connection !!!")
             print(error)
 
-honeypot('127.0.0.1', 2223, username=None, password=None)
